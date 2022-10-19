@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link rel installs: bootstrap, font awesome, cloudflare hover, own css file below -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+        integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
+    <!-- https://cdnjs.com/ - below -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Kayla's Resume</title>
+    <!-- Import icon next to title favicon -->
+</head>
+
+<body>
+    <header>
+        <!-- Add 'no-gutters' to take away auto spacing for rows in Bootstrap -->
+        <div class="row no-gutters">
+            <a href="index.html" class="col-md-4 logo">
+            </a>
+            <div class="col-md-8">
+                <div class="row bg-color-name-title no-gutters">
+                    <div class="col heading">
+                        <h1 class="name">Kayla Smith</h1>
+                        <h2 class="title">Full Stack Developer</h2>
+
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menu-item">
+                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-home"
+                                        aria-hidden="true"></i><span>Home</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menu-item">
+                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fas fa-graduation-cap"
+                                        aria-hidden="true"></i><span>Resume</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menu-item">
+                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="far fa-folder-open"
+                                        aria-hidden="true"></i><span>Contact</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menu-item">
+                                <a href="assets/cv/cv-fullstack.pdf" target="_blank" class="hvr-sweep-to-bottom"><i
+                                        class="fas fa-download" aria-hidden="true"></i><span>Download</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 bg-color-work-history section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="history-heading uppercase">
+                            Employment History
+                        </h3>
+                    </div>
+                </div>
+                <div class="history-items">
+                    <!-- <div class="timeline-item" data-dates="09/2013 - present">
+                    <h4>Translator and Proofreader</h4>
+                    <p class="location"> Freelance | Barcelona, Spain</p>
+                    <ul class="tasks">
+                        <li>Translate scientific reports and documents into English.</li>
+                        <li>Edit for content and grammar before submitting for publication.</li>
+                        </ul>
+
+                </div> -->
+                    <div class="timeline-item" data-dates="05/2021 - 09/2022">
+                        <h4>Oct8ne</h4>
+                        <p class="location">Tech Support | Barcelona, Spain</p>
+                        <ul class="tasks">
+                            <li>Identify and solve bugs with the technology.</li>
+                            <li>Create custom designs and features to improve the UI/UX for clients.</li>
+                            <li>Ensure seamless implementation and functionality of Oct8ne's technology on customers'
+                                websites.</li>
+                        </ul>
+
+                    </div>
+                    <div class="timeline-item" data-dates="06/2017 - 07/2020">
+                        <h4>AQuAS
+                            <p class="aquas">(Agency for Health Quality and Assessment of Catalonia)</p>
+                        </h4>
+                        <p class="location">Researcher | Barcelona, Spain</p>
+                        <ul class="tasks">
+                            <li>Research and write reports for the Spanish Ministry of Health.</li>
+                            <li>Evaluate research proposals for government funding.</li>
+                            <li>Create plans of action for healthcare facilities under constraints during the Covid-19
+                                pandemic.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 .bg-color-three-reasons section-column">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">My Skills</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-tv" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Front End</h4>
+                                <p>I've worked with HTML, CSS, JavaScript, React and Bootstrap. I'm keen to broaden my
+                                    knowledge in these programs and I am look forward to learning new languages.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fas fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Back End</h4>
+                                <p>Through the Code Institute coursework, I was introduced to Python, Node.js, Django
+                                    and jQuery. In my previous employment in the Tech Support sector, I worked closely
+                                    with Angular and SQL. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row progress-section">
+                    <div class="col">
+                        <div class="progress">
+                            <div class="progress-bar bg-html" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:90%;">
+                                <span class="sr-only">90% complete</span>
+
+                            </div>
+                            <span class="progress-type">HTML / HTML5</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-css" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100" style="width:90%;">
+                                <span class="sr-only">90% complete</span>
+
+                            </div>
+                            <span class="progress-type">CSS / CSS3</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-javascript" role="progressbar" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+                                <span class="sr-only">70% complete</span>
+
+                            </div>
+                            <span class="progress-type">JavaScript / jQuery</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-django" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                aria-valuemax="100" style="width:60%;">
+                                <span class="sr-only">60% complete</span>
+
+                            </div>
+                            <span class="progress-type">Django / Python</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-sql" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                aria-valuemax="100" style="width:40%;">
+                                <span class="sr-only">40% complete</span>
+
+                            </div>
+                            <span class="progress-type">SQL / NoSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row" id="footer-details">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block">
+                    Junior frontend developer, earning a diploma in full stack software development with Code Institute.
+                    Experienced in HTML, CSS, JavaScript and Python with some knowledge of React and Angular. An
+                    enthusiastic and conscientious worker, ready for a programming challenge!
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">
+                    Would you prefer a printable version of my CV? You can download it here.
+                    <a href="assets/cv/cv-fullstack.pdf" target=_blank class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Professional Links</h5>
+                <ul class="list-inline prof-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/in/kayla-smith-ab1595101/?locale=en_US">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://github.com/Kaylaesmith1">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
