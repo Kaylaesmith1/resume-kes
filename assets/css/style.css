@@ -48,8 +48,17 @@
     background-color: #83ca61;
 }
 
-.ui-menu-color-download {
+.ui-menu-color-interests {
+    /* background-color: #9fd983; */
+    background-color: red;
+}
+
+.ui-menu-color-github {
     /* background-color: #0d6394; */
+    background-color: purple;
+}
+
+.ui-menu-color-download {
     background-color: #1a78ae;
 }
 
