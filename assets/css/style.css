@@ -14,25 +14,25 @@
 }
 
 .bg-html {
-    background-color: #226616;
+    background-color: #024064;
 }
 
 .bg-css {
-    background-color: #64bb6b;
+    background-color: #29676f;
 }
 
 .bg-javascript {
     /* background-color: #9fd983; */
-    background-color: #83ca61;
+    background-color: #51807b;
 }
 
 .bg-django {
     /* background-color: #3cb3c0; */
-    background-color: #1a78ae;
+    background-color: #7a9784;
 }
 
 .bg-sql {
-    background-color: #024064;
+    background-color: #b4b581;
 }
 
 .ui-menu-color-home {
@@ -40,26 +40,29 @@
 }
 
 .ui-menu-color-resume {
-    background-color: #64bb6b;
+    background-color: #29676f;
 }
 
 .ui-menu-color-contact {
     /* background-color: #9fd983; */
-    background-color: #83ca61;
+    background-color: #51807b;
 }
 
 .ui-menu-color-interests {
     /* background-color: #9fd983; */
-    background-color: red;
+    /* background-color: #29676f; */
+    background-color: #7a9784;
 }
 
 .ui-menu-color-github {
     /* background-color: #0d6394; */
-    background-color: purple;
+    background-color: #b4b581;
 }
 
 .ui-menu-color-download {
-    background-color: #1a78ae;
+    background-color: #e4bd75;
+    /* background-color: #fdd488; */
+
 }
 
 .row-table {
@@ -84,8 +87,9 @@
 }
 
 .bg-color-work-history {
-    background-color: #0d6394;
+    /* background-color: #0d6394; */
     /* background-color: #1a78ae; */
+    background-color: #024064;
 }
 
 /* HEADING */
@@ -386,6 +390,10 @@ p.aquas {
     font-weight: 500;
     margin-top: 25px;
     margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 0.5em;
 }
 
 .center-form {
