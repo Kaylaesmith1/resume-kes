@@ -73,6 +73,7 @@
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
+    background-color: lightgrey;
 }
 
 .history-heading,
@@ -408,6 +409,12 @@ button[type="submit"] {
     color: white;
     background: #1a78ae;
     border-color: #1a78ae;
+}
+
+/* RENDERING MAP */
+div#map {
+    /* min-height: 360px; */
+    min-height: 600px;
 }
 
 /* MEDIA QUERIES */
