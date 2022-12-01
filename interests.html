@@ -187,28 +187,11 @@
             </div>
         </div>
     </footer>
-    <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
-                center: {
-                    lat: 46.619261,
-                    lng: 9.134766
-                    // lng: -33.134766
-                }
-            });
-            var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            var locations = [
-                {lat: 48.8080, lng: 9.4259},
-                {lat: 39.6994, lng: 3.0063},
-                {lat: 54.3520, lng: 18.6466}
-            ];
-        }
-        </script>
         <!-- Get marker clusters .js file (below)-->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <!-- Gets google maps API file. async and defer would help load time if script was at the top in head. If in head, only need defer tag-->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKiW5FmdOqaYkd92TXXzRklpWJb82jJDI&region=US&language=en&callback=initMap"></script>
+    <script src = 'assets/js/maps.js'></script>
 </body>
 
 </html>
