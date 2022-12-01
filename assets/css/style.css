@@ -417,6 +417,14 @@ div#map {
     min-height: 600px;
 }
 
+/* GITHUB  */
+#loader {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
 /* MEDIA QUERIES */
 @media(min-width: 922px) {
     .center-form {
