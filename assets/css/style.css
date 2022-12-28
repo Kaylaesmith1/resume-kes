@@ -424,6 +424,10 @@ div#map {
     height: 150px;
     margin: 0 auto;
   }
+  
+  .gh-avatar {
+    margin: 0.5rem 0 0.5rem 0;
+  }
 
 /* MEDIA QUERIES */
 @media(min-width: 922px) {
