@@ -17,6 +17,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Kayla's Resume</title>
     <!-- Import icon next to title favicon -->
+    <!-- Install Email JS -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("l6Dz4qYBCylOXlYz_");
+   })();
+</script>
 </head>
 <body>
     <header>
@@ -71,7 +80,7 @@
             <h3 class="contact-heading uppercase text-center">Have a project in mind?</h3>
             <h5 class="uppercase text-center">Let's collaborate!</h5>
             <div class="center-form">
-                <form>
+                <form onsubmit="return sendMail(this);">
                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
                         required />
@@ -128,6 +137,7 @@
         </div>
 
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
