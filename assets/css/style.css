@@ -80,7 +80,7 @@
 .section-heading {
     font-family: 'Exo', sans-serif;
     font-weight: 600;
-    margin: 25px 0 40px 0;
+    margin: 40px 0 32px 0;
 }
 
 .bg-color-personal-info {
@@ -88,9 +88,6 @@
 }
 
 .bg-color-work-history {
-    /* background-color: #0d6394; */
-    /* background-color: #1a78ae; */
-    /* background-color: #024064; */
     background-color: #f4f4f4;
 }
 
