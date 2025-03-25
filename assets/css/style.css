@@ -269,6 +269,11 @@ footer {
 }
 
 /* PERSONAL INFO */
+
+.left-column {
+    text-align: center;
+}
+
 .personal-info-item {
     margin-bottom: 20px;
     display: block;

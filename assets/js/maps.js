@@ -4,7 +4,7 @@ function initMap() {
 
     // Create the map
     const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 10,  // Adjust zoom level as needed
+        zoom: 6,  // Adjust zoom level as needed
         center: barcelona,
     });
 
