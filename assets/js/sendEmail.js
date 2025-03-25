@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     form.addEventListener("submit", async function (event) {
-        event.preventDefault();
+        event.preventDefault(); // Prevent default form submission
 
         let formData = new FormData(form);
         let response = await fetch(form.action, {
@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
 
 
 // function sendMail(contactForm) {
