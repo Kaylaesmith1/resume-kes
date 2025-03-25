@@ -12,7 +12,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
 
     if (response.ok) {
         document.getElementById("thankYouMessage").style.display = "block";
-        setTimeout(() => { window.location.href = "/"; }, 3000); 
+        setTimeout(() => { window.location.href = "/"; }, 4000); 
         form.reset();
     } else {
         alert("Oops! Something went wrong.");
