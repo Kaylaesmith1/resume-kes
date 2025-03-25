@@ -1,5 +1,5 @@
 document.getElementById("contactForm").addEventListener("submit", async function(event) {
-    event.preventDefault(); // Stop the default form submission
+    event.preventDefault(); 
 
     let form = event.target;
     let formData = new FormData(form);
@@ -11,9 +11,9 @@ document.getElementById("contactForm").addEventListener("submit", async function
     });
 
     if (response.ok) {
-        document.getElementById("thankYouMessage").style.display = "block"; // Show thank you message
-        setTimeout(() => { window.location.href = "/"; }, 3000); // Redirect to homepage after 3 seconds
-        form.reset(); // Optional: Reset form fields
+        document.getElementById("thankYouMessage").style.display = "block";
+        setTimeout(() => { window.location.href = "/"; }, 3000); 
+        form.reset();
     } else {
         alert("Oops! Something went wrong.");
     }
