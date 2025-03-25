@@ -60,9 +60,9 @@
 }
 
 .ui-menu-color-download {
-    background-color: #e4bd75;
-    /* background-color: #fdd488; */
-
+    /* background-color: #AAB0A4; */
+    /* background-color: #e4bd75; */
+    background-color: #b1b675;
 }
 
 .row-table {
@@ -128,6 +128,10 @@ header {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
+}
+
+ul.list-inline.prof-links {
+    margin-top: 15px;
 }
 
 /* css hack when displaying items inline so space isnt displayed */
