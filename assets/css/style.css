@@ -273,7 +273,6 @@ footer {
 }
 
 /* PERSONAL INFO */
-
 .left-column {
     text-align: center;
 }
@@ -330,6 +329,14 @@ footer {
 
 .progress-section {
     margin: 85px 20px 60px;
+}
+
+.skills-bullets {
+    list-style-type: circle;
+}
+
+.skills-list {
+    padding: 0;
 }
 
 /* EMPLOYMENT HISTORY */
