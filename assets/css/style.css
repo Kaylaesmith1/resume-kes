@@ -228,7 +228,8 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #1a78ae;
+    /* color: #1a78ae; */
+    color: #7a9783;
 }
 
 .prof-links {
@@ -254,8 +255,9 @@ footer {
 
 .prof-links li a i:hover {
     /* background-color: #3cb3c0; */
-    /* background-color: #9fd983; */
-    background-color: #1a78ae;
+    background-color: #7a9783;
+    /* background-color: #1a78ae; */
+    text-decoration: none;
 }
 
 #footer-details {
@@ -412,22 +414,31 @@ p.aquas {
 }
 
 .center-form {
-    padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
 }
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: white;
+    background: #052337;
+    border-color: #052337;
+}
+
+button.btn.btn-secondary:hover {
     background: #034064;
     border-color: #034064;
 }
 
-button.btn.btn-secondary:hover {
-    background: #1a78ae;
-    border-color: #1a78ae;
+.form-container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+    background: #7a9783;
 }
 
 /* RENDERING MAP */
@@ -512,6 +523,7 @@ div#map {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+        margin-bottom: 25px;
     }
 
 }
