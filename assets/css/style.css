@@ -51,7 +51,8 @@
 .ui-menu-color-interests {
     /* background-color: #9fd983; */
     /* background-color: #29676f; */
-    background-color: #7a9784;
+    /* background-color: #7a9784; */
+    background-color: #b1b675;
 }
 
 .ui-menu-color-github {
@@ -62,7 +63,8 @@
 .ui-menu-color-download {
     /* background-color: #AAB0A4; */
     /* background-color: #e4bd75; */
-    background-color: #b1b675;
+    /* background-color: #b1b675; */
+    background-color: #7a9784;
 }
 
 .row-table {
@@ -257,8 +259,13 @@ footer {
     /* background-color: #3cb3c0; */
     background-color: #7a9783;
     /* background-color: #1a78ae; */
+}
+
+.prof-links a[href*="github.com"]:hover,
+.prof-links a[href*="linkedin.com"]:hover {
     text-decoration: none;
 }
+
 
 #footer-details {
     padding: 20px;
@@ -525,5 +532,20 @@ div#map {
         max-width: 50%;
         margin-bottom: 25px;
     }
+
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.jump2digital-cert {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 10px 0 20px 0;
 
 }
