@@ -117,6 +117,7 @@ header {
     font-size: 50px;
     margin-top: 50px;
     color: white;
+    text-align: center;
 }
 
 .title {
@@ -126,6 +127,7 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: white;
+    text-align: center;
 }
 
 .list-inline-item:not(:last-child) {
@@ -543,9 +545,13 @@ video {
 }
 
 .jump2digital-cert {
-    width: 250px;
+    width: 300px;
     height: auto;
     display: block;
     margin: 10px 0 20px 0;
 
+}
+
+a {
+    color: #7a9783;
 }
