@@ -415,7 +415,7 @@ p.aquas {
     font-family: 'Exo', sans-serif;
     font-weight: 500;
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .form-control {
@@ -426,6 +426,7 @@ p.aquas {
     margin: 0 auto;
     max-width: 70%;
     margin-bottom: 25px;
+    margin-top: 15px;
     border-radius: 10px;
 
 }
